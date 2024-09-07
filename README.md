@@ -21,7 +21,7 @@ Teknologi dalam pembuatan website ini diantaranya:
 
 - Download atau clone folder melalui github ini
 - Buka folder tersebut
-- Buka terminal dan ketik `npm instaal` untuk install dependenci
+- Buka terminal dan ketik `npm instal` untuk install dependenci
 - Pada folder server jalankan dengan perintah `npm start`
 - Pada folder client jalankan dengan perintah `npm start`
 - Maka website akan terbuka dengan sendirinya
