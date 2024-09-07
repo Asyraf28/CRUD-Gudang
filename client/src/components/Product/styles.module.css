@@ -1,0 +1,133 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.containerkhusus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.content {
+  padding: 20px;
+  width: calc(100% - 250px);
+  text-align: justify;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+table th {
+  color: white;
+  background-color: #6aabbe;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.btn {
+  padding: 8px 12px;
+  margin: 4px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete:hover {
+  background-color: #c9291e;
+}
+
+.tambah {
+  font-size: 1rem;
+  background-color: #1ac807;
+  color: white;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.tambah:hover {
+  background-color: #15a805;
+}
+
+.edit {
+  font-size: 1rem;
+  background-color: #f0bb1f;
+  color: white;
+  text-decoration: none;
+}
+
+.edit:hover {
+  background-color: #cb9f1a;
+}
+
+.delete {
+  font-size: 1rem;
+  background-color: #f44336;
+  color: white;
+}
+
+.formContainer {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #218838;
+}
+
+.isSuccess {
+  background-color: #28a745;
+}
+
+.isSuccess:hover {
+  background-color: #218838;
+}

@@ -13,11 +13,12 @@
   margin-left: 20px;
 }
 
-.white_btn {
+.red_btn {
   border: none;
   outline: none;
   padding: 12px 0;
-  background-color: white;
+  color: white;
+  background-color: red;
   border-radius: 20px;
   width: 120px;
   font-weight: bold;

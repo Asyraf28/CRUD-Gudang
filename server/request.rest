@@ -1,0 +1,31 @@
+GET http://localhost:8080/products
+
+###
+GET http://localhost:8080/products/66dc463436abff0c1101b573
+
+###
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+    "product_name":"Kipas Angin",
+    "category":"Elektronik",
+    "merk":"Miyako",
+    "price":"120000",
+    "stock":"100"
+}
+
+###
+PATCH  http://localhost:8080/products/66dc463436abff0c1101b573
+Content-Type: application/json
+
+{
+    "product_name":"Panci Listrik",
+    "category":"Elektronik",
+    "merk":"GoBear",
+    "price":"165000",
+    "stock":"612"
+}
+
+###
+DELETE http://localhost:8080/products/66dc454536abff0c1101b570

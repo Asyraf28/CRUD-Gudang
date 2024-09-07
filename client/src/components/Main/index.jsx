@@ -1,4 +1,5 @@
 import styles from "./styles.module.css";
+import ProductList from "../Product/ProductList";
 
 const Main = () => {
 	const handleLogout = () => {
@@ -9,11 +10,13 @@ const Main = () => {
 	return (
 		<div className={styles.main_container}>
 			<nav className={styles.navbar}>
-				<h1>fakebook</h1>
-				<button className={styles.white_btn} onClick={handleLogout}>
+				<h1>Gudang.Co</h1>
+				<button className={styles.red_btn} onClick={handleLogout}>
 					Logout
 				</button>
 			</nav>
+
+			<ProductList/>
 		</div>
 	);
 };
